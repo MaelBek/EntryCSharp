@@ -10,6 +10,16 @@ namespace EntryCSharp
     {
         static void Main(string[] args)
         {
+            //String Lessons
+            string tekst;
+            Console.WriteLine("Please enter your name: ");
+            tekst = Console.ReadLine();
+            tekst = "Cześć " + tekst;
+            Console.WriteLine(tekst);
+            Console.WriteLine(tekst.Length);
+            Console.ReadLine();
+
+
         }
     }
 }
