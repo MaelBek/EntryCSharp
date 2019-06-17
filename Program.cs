@@ -11,16 +11,46 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 2.7 -- Exercises
+            //2.8
+
+
+            //2.7
+            //int x, y = 5;
+            //x = ++y * 2;
+            //x = y++;
+            //x = y--;
+            //Console.WriteLine(++y);
+            //Console.ReadLine();
+
+
+            //2.6
+            //int x, y = 4;
+            //x = (y -= 2);
+            //x = y++;
+            //x = y--;
+            //Console.WriteLine("{0},{1}",x,y);
+            //Console.ReadLine();
+
+            //2.5
+            //int x = 2, y = 3;
+            //Console.WriteLine(x *= y * 2);
+            //Console.ReadLine();
+
+            //2.4
+            //int x = 100;
+            //Console.WriteLine(++x * 2);
+            //Console.ReadLine();
+
             //2.3
-            double BMI, wzrost;
-            int masa;
-            Console.WriteLine("Podaj mase ciała: ");
-            masa = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Podaj wzrost: ");
-            wzrost = Convert.ToDouble(Console.ReadLine());
-            BMI = masa / (Math.Pow(wzrost, 2));
-            Console.WriteLine("Twoje BMI to: {0:F1}", BMI);
-            Console.ReadLine();
+            //double BMI, wzrost;
+            //int masa;
+            //Console.WriteLine("Podaj mase ciała: ");
+            //masa = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Podaj wzrost: ");
+            //wzrost = Convert.ToDouble(Console.ReadLine());
+            //BMI = masa / (Math.Pow(wzrost, 2));
+            //Console.WriteLine("Twoje BMI to: {0:F1}", BMI);
+            //Console.ReadLine();
 
             //2.2
             //int a, b, c, delta, x1, x2;
