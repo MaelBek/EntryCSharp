@@ -12,13 +12,14 @@ namespace EntryCSharp
         {
             //String Lessons
 
+
             //2.15
-            Console.WriteLine("Linia1\nLinia2s"); //przejście do nowej linii
-            Console.WriteLine("Wzrost 170\tWaga 80"); //t - tabulacja
-            Console.WriteLine(@"Wzrost 170\tWaga 80"); //@ - Dosłowna interpretacja
-            Console.WriteLine("C:\\System\\Windows"); //Podwójne \\ wstawia jedno \
-            Console.WriteLine("Tytuł filmu: \"Rój\""); //\" wstawia "
-            Console.ReadLine();
+            //Console.WriteLine("Linia1\nLinia2s"); //przejście do nowej linii
+            //Console.WriteLine("Wzrost 170\tWaga 80"); //t - tabulacja
+            //Console.WriteLine(@"Wzrost 170\tWaga 80"); //@ - Dosłowna interpretacja
+            //Console.WriteLine("C:\\System\\Windows"); //Podwójne \\ wstawia jedno \
+            //Console.WriteLine("Tytuł filmu: \"Rój\""); //\" wstawia "
+            //Console.ReadLine();
 
             //2.14
             //string tekst;
