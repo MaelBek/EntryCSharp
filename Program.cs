@@ -10,6 +10,58 @@ namespace EntryCSharp
     {
         static void Main(string[] args)
         {
+            // -- 2.7 -- Exercises
+            //2.3
+            double BMI, wzrost;
+            int masa;
+            Console.WriteLine("Podaj mase ciała: ");
+            masa = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Podaj wzrost: ");
+            wzrost = Convert.ToDouble(Console.ReadLine());
+            BMI = masa / (Math.Pow(wzrost, 2));
+            Console.WriteLine("Twoje BMI to: {0:F1}", BMI);
+            Console.ReadLine();
+
+            //2.2
+            //int a, b, c, delta, x1, x2;
+            //double deltaK;
+            //int deltaK1;
+            //Console.WriteLine("Wprowadź wartość a:");
+            //a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadź wartość b:");
+            //b = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadź wartość c:");
+            //c = Convert.ToInt32(Console.ReadLine());
+            //delta = (b * b) - (4 * a * c);
+            //deltaK = Math.Sqrt(delta);
+            //deltaK1 = (int)deltaK;
+            //x1 = (-b + deltaK1) / (2 * a);
+            //x2 = (-b - deltaK1) / (2 * a);
+            //Console.WriteLine("Wartość delta wynosi: {0}", delta);
+            //Console.WriteLine("Pierwiastek z delta wynosi: {0:F2}", deltaK);
+            //Console.WriteLine("x = {0}{1}", x1, x2);
+            //Console.ReadLine();
+
+
+
+            //2.1
+            //double c, f;
+            //Console.WriteLine("Podaj stopnie celsjusza: ");
+            //c = Convert.ToDouble(Console.ReadLine());
+            //f = 32 + ((9.0 / 5) * c);
+            //Console.WriteLine("Stopnie w Farenheit wynoszą:{0}", f);
+            //Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
             // -- 2.6 -- prezentacja wyników / output presentation
 
 
