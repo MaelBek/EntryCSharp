@@ -10,12 +10,26 @@ namespace EntryCSharp
     {
         static void Main(string[] args)
         {
-            //2.5
-            int a, b, c = 10;
-            a = b = c;
-            Console.WriteLine(a);
-            Console.WriteLine(a + b + c);
-            Console.ReadLine();
+            // -- 2.6 --
+
+
+            // -- 2.5 --
+
+
+            //2.17
+
+            //int x = 1, y = 1;
+            //Console.WriteLine((x++ + 2) * ++y);
+            //Console.ReadKey();
+
+            //Console.WriteLine(6 / 2 * (2 + 1));
+            //Console.ReadLine();
+
+            //int a, b, c = 10;
+            //a = b = c;
+            //Console.WriteLine(a);
+            //Console.WriteLine(a + b + c);
+            //Console.ReadLine();
 
 
             //String Lessons
