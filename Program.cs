@@ -11,20 +11,28 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 2.6 -- prezentacja wyników / output presentation
+
+
             //2.19
-            int suma = 10;
-            double x = 10.23256, y = 62.36, wskaznik = 0.45;
-            string imie = "Ala", naz = "Nowak";
-            Console.WriteLine("1. Imię: {0,15} Nazwisko: {1,20}", imie, naz);
-            Console.WriteLine("2. Imię: {0,-15} Nazwisko: {1,-20}", imie, naz);
-            Console.WriteLine("3. Wartość: {0, 10} to suma", suma);
-            Console.WriteLine("4. Wartość: {0, -10} to suma", suma);
-            Console.WriteLine("5. Wskaźnik: {0, 8:P}", wskaznik);
-            Console.WriteLine("6. Waga: {0, 10}kg", x);
-            Console.WriteLine("7. {0, -10:F4} (cztery cyfry po przecinku)", x);
-            Console.WriteLine("8. Wartość: X={0, -10:F4}, Y={1,-10:F2}", x, y);
-            Console.WriteLine("9. A ta liczba będzie w klamrach {{{0}}}", y);
-            Console.ReadLine();
+            //int suma = 10;
+            //double x = 10.23256, y = 62.36, wskaznik = 0.45;
+            //string imie = "Ala", naz = "Nowak";
+            //Console.WriteLine("1. Imię: {0,15} Nazwisko: {1,55}", imie, naz);
+            //Console.WriteLine("2. Imię: {0,15} Nazwisko: {1,50}", imie, naz);
+            //Console.WriteLine("2. Imię: {0,10} Nazwisko: {1,50}", imie, naz);
+            //Console.WriteLine("2. Imię: {0,5} Nazwisko: {1,60}", imie, naz);
+            //Console.WriteLine("2. Imię: {0} Nazwisko: {1,65}", imie, naz);
+            //Console.WriteLine("2a. Imię: {0,-15} Nazwisko: {1,-5}", imie, naz);
+            //Console.WriteLine("2a. Imię: {0,-15} Nazwisko: {1,-10}", imie, naz);
+            //Console.WriteLine("2a. Imię: {0,-15} Nazwisko: {1,-15}", imie, naz);
+            //Console.WriteLine("3. Wartość: {0, 10} to suma", suma);
+            //Console.WriteLine("4. Wartość: {0, -10} to suma", suma);
+            //Console.WriteLine("5. Wskaźnik: {0, 8:P}", wskaznik);
+            //Console.WriteLine("6. Waga: {0, 10}kg", x);
+            //Console.WriteLine("7. {0, -10:F4} (cztery cyfry po przecinku)", x);
+            //Console.WriteLine("8. Wartość: X={0, -10:F4}, Y={1,-10:F2}", x, y);
+            //Console.WriteLine("9. A ta liczba będzie w klamrach {{{0}}}", y);
+            //Console.ReadLine();
             // -- 2.5 --
 
 
