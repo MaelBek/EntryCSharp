@@ -10,6 +10,29 @@ namespace EntryCSharp
     {
         static void Main(string[] args)
         {
+            // -- 3 --
+
+
+            //3.7
+            //double dochod, przychod = 1000, koszt = 1020.50;
+            //dochod = przychod - koszt;
+            //if (dochod != 0)
+            //{
+            //    if (dochod > 0)
+            //    {
+            //        Console.WriteLine("Mamy zysk!");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Mamy strate!");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Mamy przychód zerowy!");
+            //}
+            //Console.ReadLine();
+
             // -- 2.7 -- Exercises
             //2.10
             //int powierzchnia = 100, osoby = 10;
