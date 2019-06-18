@@ -11,8 +11,51 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 2.7 -- Exercises
-            //2.8
+            //2.10
+            //int powierzchnia = 100, osoby = 10;
+            //double gestoscZaludnienia = (double)osoby / powierzchnia;
+            //Console.WriteLine(gestoscZaludnienia);
+            //Console.ReadLine();
 
+            //2.9
+            //a
+            //int x = 1, y = 4, z = 2;
+            //bool wynik = (x++ > 0 && y++ == 4 && z-- > 2 && 44 > 5);
+            //Console.WriteLine("1. Wynik={0} x={1} y={2} z={3}", wynik, x, y, z);
+            //Console.ReadLine();
+            ////b
+            //int x = 1, y = 4, z = 2;
+            //bool wynik = (x++ > 1 & y++ == 4 && z-- > 0);
+            //Console.WriteLine("2. Wynik={0} x={1} y={2} z={3}", wynik, x, y, z);
+            //Console.ReadLine();
+            ////c
+            //int x = 1, y = 4, z = 2;
+            //bool wynik = (x++ > 1 & y++ == 4 & z-- > 0);
+            //Console.WriteLine("3. Wynik={0} x={1} y={2} z={3}", wynik, x, y, z);
+            //Console.ReadLine();
+            ////d
+            //int x = 1, y = 3, z = 4;
+            //bool wynik = (x == 1 || y++ > 4 || ++z > 0);
+            //Console.WriteLine("4. Wynik={0} x={1} y={2} z={3}", wynik, x, y, z);
+            //Console.ReadLine();
+            //e
+            //int x = 1, y = 3, z = 4;
+            //bool wynik = (x == 1 | y++ > 4 || ++z > 0);
+            //Console.WriteLine("5. Wynik={0} x={1} y={2} z={3}", wynik, x, y, z);
+            //Console.ReadLine();
+            //f
+            //int x = 1, y = 3, z = 4;
+            //bool wynik = (x == 1 | y++ > 4 | ++z > 0);
+            //Console.WriteLine("6. Wynik={0} x={1} y={2} z={3}", wynik, x, y, z);
+            //Console.ReadLine();
+
+
+            ////2.8
+            //bool x;
+            //int y = 1, z = 1;
+            //x = (y == 1 && z++ == 1);
+            //Console.WriteLine(x);
+            //Console.ReadLine();
 
             //2.7
             //int x, y = 5;
