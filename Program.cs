@@ -11,8 +11,65 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 3 --
+            //3.14
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 1; j <= 5; j++)
+                    Console.Write(j);
+                    Console.WriteLine();
+            }
+            Console.ReadKey();
+            //3.13
+          
+            //for (int i = 1; i <= 5; i++)
+            //    for (int j = 1; j <= 5; j++)
+            //        Console.WriteLine("i={0},j={1}", i, j);
+            //Console.ReadKey();
 
+            //3.11
+            //double cena = 0.0;
+            //Console.WriteLine("Wybierz S/M/L");
+            //String porcja = Console.ReadLine();
+            //switch (porcja)
+            //{
+            //    case "S":
+            //        cena += 4.5;
+            //        break;
+            //    case "M":
+            //        cena += 2.5;
+            //        goto case "S";
+            //    case "L":
+            //        cena += 3.5;
+            //        goto case "S";
+            //    default:
+            //        Console.WriteLine("Podany zły symbol");
+            //        break;
+            //}
+            //Console.WriteLine(cena);
+            //Console.ReadLine();
+            //3.10
+            //int liczba = int.Parse(Console.ReadLine());
+            //switch (liczba)
+            //{
+            //    case 1:
+            //        Console.WriteLine("jeden");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("dwa");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Inna niz jeden lub dwa");
+            //        break;
 
+            //}
+            //Console.ReadKey();
+            ////3.9
+            //int y, x = 2;
+            //bool isTest;
+            //isTest = x > 2;
+            //y = isTest ? ++x : --x;
+            //Console.WriteLine(x);
+            //    Console.ReadLine();
             //3.7
             //double dochod, przychod = 1000, koszt = 1020.50;
             //dochod = przychod - koszt;
