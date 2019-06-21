@@ -11,16 +11,102 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 3 --
-            //3.14
-            for (int i = 1; i <= 5; i++)
+            //3.24
+            int a = 0;
+            do
             {
-                for (int j = 1; j <= 5; j++)
-                    Console.Write(j);
-                    Console.WriteLine();
-            }
+                a++;
+                if (a == 5)
+                    break;  //break a loop
+                Console.WriteLine(a);
+
+            } while (true);
             Console.ReadKey();
-            //3.13
-          
+            //3.23
+            //int wykladnik = Convert.ToInt16(Console.ReadLine());
+            //int i = 1, potega = 1;
+            //do
+            //{
+            //    potega *= 2;
+            //    i++;
+            //    Console.WriteLine("2 do potegi {0} ma wynik {1}", i, potega);
+
+            //} while (i <= wykladnik);
+            //Console.ReadKey();
+            //
+            //Console.WriteLine("Podaj dodatni wykladnik");
+            //int wykladnik = Convert.ToInt16(Console.ReadLine());
+            //if (wykladnik > 0 )
+            //{
+            //    int potega = 1;
+            //    for (int i = 1; i <= wykladnik; i++)
+            //    {
+            //        potega = potega * 2;
+            //        Console.WriteLine("2 do {0,2} wynosi {1,2}", i, potega);
+            //    }
+            //}
+            //Console.ReadKey();
+
+            //int potega = 1;
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    potega *= 2;
+            //    Console.WriteLine("2 do {0,2} wynosi {1,2}", i, potega);
+            //}
+            //Console.ReadKey();
+
+            //int i = 1;
+            //int potega = 1;
+            //while (i <= 5)
+            //{
+            //    potega *= 2;
+            //    Console.WriteLine("2 do potegi {0,5} wynosi {1,5}", i, potega);
+            //    i++;
+
+            //}
+            //Console.ReadKey();
+
+            //int i = 1, potega = 1;
+            //do
+            //{
+            //    potega *= 2;
+            //    Console.WriteLine("2 do potegi {0} wynosi {1}", i, potega);
+            //    i++;
+            //} while (i <= 5);
+            //Console.ReadKey();
+            //3.21
+            //Console.WriteLine("czas:{0}", DateTime.Now);
+            //Console.WriteLine("Ponownie pokazać czas?: t/n");
+            //string odpowiedz = Console.ReadLine();
+            //while (odpowiedz != "n")
+            //{ 
+            //    Console.WriteLine("czas:{0}", DateTime.Now);
+            //    Console.WriteLine("Ponownie pokazać czas?: t/n");
+            //    Console.ReadLine();
+            //}
+
+            //3.20
+            //int i = 1;
+            //while (i <= 5)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+            //Console.ReadKey();
+            //for (int i = 154865; i >= 0; i-=2735)
+            //    Console.WriteLine(i);
+            //Console.ReadKey();
+
+            //3.14
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= 5; j++)
+            //        Console.Write(j);
+            //        Console.WriteLine();
+            //}
+            //Console.ReadKey();
+            ////3.13
+
             //for (int i = 1; i <= 5; i++)
             //    for (int j = 1; j <= 5; j++)
             //        Console.WriteLine("i={0},j={1}", i, j);
