@@ -11,17 +11,63 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 3 --
-            //3.24
-            int a = 0;
-            do
-            {
-                a++;
-                if (a == 5)
-                    break;  //break a loop
-                Console.WriteLine(a);
+            //3.3.1
+            //3.a
+            //wprowadz liczbe calkowita
+            Console.WriteLine("Podaj");
+            //Skonwertuj liczbe i przypisz zmiennej X ktora ma byc sprawdzona
+            //Zadeklaruj string Y, ktory bedzie zawieral odpowiedz jaka jest liczba calkowita
+            //sprawdz czy liczba jest parzysta
+            //jesli tak, dodaj string: parzysta do wyniku koncowego
+            //jesi nie, oddaj string: nieparzysta do wyniku koncowego
+            //sprawdz czy liczba jest negatywna
+            //jesli tak, dodaj string: negatywna do wyniku koncowego
+            //jesli nie, oddaj string: pozytywna do wyniku koncowego
+            //wypisz string koncowy X zawierajac odpowiedz jak jest liczba calkowita.
 
-            } while (true);
-            Console.ReadKey();
+
+            //jesli tak sprawdz czy liczba jest negatywna
+            //jesli tak, napisz: liczba jest parzysta i negatywna
+            //jesli jest nieparzysta sprawdz czy jest negatywna
+            //jesli tak, napisz: liczba jest nieparzysta i negatywna
+
+
+
+            //break and continue
+            //słowo kluczowe 'break' jest wykorzystywane kiedy zachodzi potrzeba natychmiastowego przerwania programu w związku z 
+            //możliwościa stworzenia nieskończonej pętli, która by zawiesiła program ewentualnie. Przerwa następuje w konkretnie 
+            // danym punkcie, tzn x == 2, komenda break zakończy program w dokładnie tym punkcie.
+            //słowo kluczowe 'continue' jest podobne do 'break' z tą różnicą, że pomija dany punkt w pętli i kontynuuje pętle.
+            //3.25
+            //for(int i =1; i<=3;i++)
+            //{
+            //    if (i == 2) continue;
+            //    Console.WriteLine("Liczby w {0} wierszu:", i);
+            //    for(int j=1; j<=5;j++)
+            //    {
+            //        if (j == 3) continue;
+            //        Console.Write(j + ",");
+            //    }
+            //    Console.WriteLine("s" + i);
+            //}
+            //Console.ReadKey();
+            //3.24
+            //int a = 0;
+            //do
+            //{
+            //    a++;
+            //    if (a == 5)
+            //        break;  //break a loop
+            //    Console.WriteLine(a);
+
+            //} while (true);
+            //Console.ReadKey();
+            //----------------
+            //for, while, do..while
+            //for loop jest wykorzystywany podczas kiedy wiemy ile razy dokładnie ma się powtórzyć dana pętla,
+            //while loop jest wykorzystywane kiedy nie mamy pojecia ile razy, więc może być zapętlone od zera wzwyż
+            //do..while loop jest wykorzystywane kiedy wiemy, że pętla ma być wykonana przynajmniej raz
+            //----------------
             //3.23
             //int wykladnik = Convert.ToInt16(Console.ReadLine());
             //int i = 1, potega = 1;
