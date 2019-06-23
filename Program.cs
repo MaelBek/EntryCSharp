@@ -12,24 +12,112 @@ namespace EntryCSharp
         {
             // -- 3 --
             //3.3.1
+            //3.c
+            //Janek i Karol mają dług w wysokości 80pln, 
+            //każdego dnia obaj będą odkładali kwote w wysokości 20% dziennego zarobku na spłate długu
+            //Janek zarabia 50pln, a Karol 40pln,
+            //Po ilu dniach uzbieraja kwote na spłate długu.
+            //----
+            //zadeklaruj wysokość długu, uzbieraną sume spłaty długu, liczby dni
+            //każego dnia, zsumuj 20% dziennego zarobku Janka i Karola
+            //dodaj tą sume do uzbieranej sumy na spłate długu
+            //Sprawdź czy suma wystarczy na spłate długu
+            //Jeśli tak, wypisz ilość dni potrzebnych na spłate długu.
+
+            //3.b
+            //wprowadz pierwsza liczbe calkowita x
+            //wprowadz druga liczbe calkowita y
+            //program ma wypisac liczby miedy x a y
+            //w tym wypadku mozemy wykorzystac petle for
+            //liczba x zaczyna zakres, liczba y konczy zakres
+            //program musi wypisac jedynie parzyste liczby
+            //3.a.c
+            //Console.WriteLine("wprowadz liczbe początkową:");
+            //int x = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadz liczbe końcową");
+            //int y = Convert.ToInt32(Console.ReadLine());
+            //x = (x % 2 == 0) ? x : x + 1;
+            //y = (y % 2 == 0) ? y : y - 1;
+            //for (int i = x; i <= y; i+=2)
+            //{
+                
+            //        Console.Write(i + ",");
+                
+            //}
+            //Console.ReadKey();
+
+            //------------------
+            //3.b.b
+            //Console.WriteLine("wprowadz liczbe początkową:");
+            //int x = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Wprowadz liczbe końcową");
+            //int y = Convert.ToInt32(Console.ReadLine());
+            ////jesli liczba x lub y jest nieparzysta, dodaj jeden
+            //if(x % 2 != 0) x++;
+
+            //if (y % 2 != 0) y++;
+
+            //for (int i = x; i <= y; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.Write(i + ",");
+            //    }
+
+            //}
+            //Console.ReadKey();
+
+            //------------
+            //3.b.a
+            //Console.WriteLine("wprowadz liczbe początkową:");
+            //int x = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadz liczbe końcową");
+            //int y = Convert.ToInt32(Console.ReadLine());
+            //for (int i = x; i <= y; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.Write(i + ",");
+            //    }
+
+            //}
+            //Console.ReadKey();
+
             //3.a
-            //wprowadz liczbe calkowita
-            Console.WriteLine("Podaj");
-            //Skonwertuj liczbe i przypisz zmiennej X ktora ma byc sprawdzona
-            //Zadeklaruj string Y, ktory bedzie zawieral odpowiedz jaka jest liczba calkowita
-            //sprawdz czy liczba jest parzysta
-            //jesli tak, dodaj string: parzysta do wyniku koncowego
-            //jesi nie, oddaj string: nieparzysta do wyniku koncowego
-            //sprawdz czy liczba jest negatywna
-            //jesli tak, dodaj string: negatywna do wyniku koncowego
-            //jesli nie, oddaj string: pozytywna do wyniku koncowego
-            //wypisz string koncowy X zawierajac odpowiedz jak jest liczba calkowita.
+            ////wprowadz liczbe calkowita
+            //Console.WriteLine("Podaj liczbe całkowitą:");
+            ////Skonwertuj liczbe i przypisz zmiennej X ktora ma byc sprawdzona
+            //int x = Convert.ToInt32(Console.ReadLine());
+            ////Zadeklaruj string Y, ktory bedzie zawieral odpowiedz jaka jest liczba calkowita
+            //string y = "Liczba jest: ";
+            //    //sprawdz czy liczba jest parzysta
+            //    //zakladamy, ze liczba jest nieznana w swoim rozmiarze
+            //    //trzeba zatem wykonać operacje modulo na liczbie X
+
+            //if (x % 2 == 0)         //jesli tak, dodaj string: parzysta do wyniku koncowego
+            //{
+            //    y += "parzysta";
+            //}
+            //else                    //jesi nie, dodaj string: nieparzysta do wyniku koncowego
+            //{
+            //    y += "nieparzysta";
+            //}
+            //if (x > 0)              //sprawdz czy liczba jest negatywna
+            //{
+            //    y += " i dodatnia."; //jesli nie, dodaj string: pozytywna do wyniku koncowego
+            //}
+            //else                    //jesli tak, dodaj string: negatywna do wyniku koncowego
+            //{
+            //    y += " i negatywna.";
+            //}
+            //Console.WriteLine("{0} to {1}", x, y);   //wypisz string koncowy X zawierajac odpowiedz jak jest liczba calkowita.
+            //Console.ReadKey();
 
 
-            //jesli tak sprawdz czy liczba jest negatywna
-            //jesli tak, napisz: liczba jest parzysta i negatywna
-            //jesli jest nieparzysta sprawdz czy jest negatywna
-            //jesli tak, napisz: liczba jest nieparzysta i negatywna
+
+            //    //wypisz string koncowy X zawierajac odpowiedz jak jest liczba calkowita.
+
 
 
 
