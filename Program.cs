@@ -12,6 +12,27 @@ namespace EntryCSharp
         {
             // -- 3 --
             //3.3.1
+            //3.d
+            //Program który wyświetla na ekranie kwadrat
+            //zbudowany ze znaku *
+            //Liczba wierszy podana przez użytkownika
+            //Console.WriteLine("Podaj liczbe wierszy kwadratu:");
+            //int x = Convert.ToInt32(Console.ReadLine());
+            //for(int i = 1; i <= x; i++)
+            //{
+            //    for(int k = 1; k <= x; k++)
+            //    {
+            //        Console.Write("*");
+            //       // if (k == 4) break;
+            //    }
+                
+            //    Console.WriteLine();
+            //   // if (i == 4) break;
+            //}
+            //Console.ReadKey();
+
+
+            //-----------------------------
             //3.c
             //Janek i Karol mają dług w wysokości 80pln, 
             //każdego dnia obaj będą odkładali kwote w wysokości 20% dziennego zarobku na spłate długu
@@ -23,7 +44,34 @@ namespace EntryCSharp
             //dodaj tą sume do uzbieranej sumy na spłate długu
             //Sprawdź czy suma wystarczy na spłate długu
             //Jeśli tak, wypisz ilość dni potrzebnych na spłate długu.
+            //double dlug = 80, splata = 0, Janek = 50, Karol = 40;
+            //int liczbaDni = 0;
 
+            //do
+            //{
+            //    liczbaDni++;
+            //    splata += (Janek * 0.2) + (Karol * 0.2);
+            //    Console.WriteLine("Liczba dni: {0}, ilość spłaconego długu: {1}", liczbaDni, splata);
+            //} while (splata < dlug);
+
+            //Console.WriteLine(liczbaDni);
+            //Console.ReadKey();
+
+
+            //while (splata <= dlug)
+            //{
+            //    liczbaDni++;
+            //    splata = (Janek * 0.2) + (Karol * 0.2);
+
+            //}
+            //if (splata >= dlug)
+            //{
+            //    Console.WriteLine(liczbaDni);
+
+            //}
+            //Console.ReadKey();
+
+            //-----------
             //3.b
             //wprowadz pierwsza liczbe calkowita x
             //wprowadz druga liczbe calkowita y
@@ -38,11 +86,11 @@ namespace EntryCSharp
             //int y = Convert.ToInt32(Console.ReadLine());
             //x = (x % 2 == 0) ? x : x + 1;
             //y = (y % 2 == 0) ? y : y - 1;
-            //for (int i = x; i <= y; i+=2)
+            //for (int i = x; i <= y; i += 2)
             //{
-                
-            //        Console.Write(i + ",");
-                
+
+            //    Console.Write(i + ",");
+
             //}
             //Console.ReadKey();
 
