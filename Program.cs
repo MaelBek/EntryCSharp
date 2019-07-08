@@ -11,7 +11,265 @@ namespace EntryCSharp
         static void Main(string[] args)
         {
             // -- 3 --
-            //3.3.1
+            //3.3.2
+            //3.9
+            //Program w czterech wariantach, który
+            //wypisuje w kazdym wariancie, jedna figure utworzona z "*"
+            //liczbe wyswietlanych wierszy podaje użytkownik
+            //
+            //3.9.a
+            //pierwsza figura, trójkat poszerzający się o jedną linie w dół w prawo
+            //zbudowana z petli for
+
+
+            //3.8
+            //Program, ktory wczytuje srednia ocen
+            //program wypisuje wedlud przedzialu w tabeli, jakie stypendium przysluguje
+            //opierajac sie na bramkach logicznnych, program sprawdza czy srednia jest mniejsza 
+            //jesli jest mniejsza, sprawdza czy jest wieksza od drugiej liczby
+            //jesli tak wypisuje dane stypendium
+            //jesli nie sprawdza nastepny przedzial
+            //program schodzi w dol
+            //najpierw sprawdza czy srednia jest rowna lub mniejsza od 5
+            //nastepnie sprawdza czy jest wieksza od 4,80, jesli tak to stp wynosi 550
+            //jesli nie
+            //program sprawdza czy jest wieksza od 
+
+            //double srednia;
+            //int styp1 = 350, styp2 = 550;
+            //Console.WriteLine("Wprowadz srednia");
+            //srednia = Convert.ToDouble(Console.ReadLine());
+            ////jesli jest mniejsza od
+            //if (srednia <= 5.00)
+            //{
+            //    //i jesli jest wieksza od
+            //    if (srednia >= 4.80)
+            //    {
+            //        //jesli tak, napisz
+            //        Console.WriteLine("Stypendium przysluguje w wysokosci {0}", styp2);
+            //    }
+            //    //jesli nie, sprawdz czy jest wieksza od 4.00
+            //    else if (srednia >= 4.00)
+            //    {
+            //        //jesli tak, napisz
+            //        Console.WriteLine("Stypendiu przysluguje w wysokosci {0}", styp1);
+            //    }
+            //    //jesli nie, sprawdz czy jest wieksza od 2.00
+            //    else if (srednia >= 2.00)
+            //    {
+            //        //jesli tak, napisz
+            //        Console.WriteLine("Stypendium nie przysluguje.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Stypendium nie przysluguje!");
+            //    }
+            //}
+
+            ////}
+            ////else if(srednia <= 4.79)
+            ////{
+            ////    if (srednia >= 4.00)
+            ////        Console.WriteLine("Stypendiu przysluguje w wysokosci {0}", styp1);
+            ////}
+            ////else if(srednia <= 3.99)
+            ////{
+            ////    if (srednia >= 2.00)
+            ////        Console.WriteLine("Stypendium nie przysluguje.");
+            ////}
+            ////else
+            ////{
+            ////    Console.WriteLine("Stypendium nie przysluguje!");
+            ////}
+
+
+            //Console.ReadLine();
+
+            //------------------------------------------------------------------------------
+            //3.7
+            //program, ktory wczytuje liczbe
+            //wypisuje dzien tygodnia wedlug tej liczby
+            //int dzien;
+            //Console.WriteLine("Wprowadz dzien tygodnia");
+            //dzien = Convert.ToInt32(Console.ReadLine());
+            //switch (dzien)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Poniedzialek");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Wtorek");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Środa");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Czwartek");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Piątek");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Sobota");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Niedziela");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Nie ma takiego dnia");
+            //        break;
+            //}
+            //Console.ReadLine();
+
+            //------------------------------------------------------------------------------
+            //3.6
+
+            //------------------------------------------------------------------------------
+            //3.5
+            //program, ktory oblicza wartosc bmi
+            //wczytuje dwie wartosci double, masa i wzrost
+            //
+            //double bmi, masa, wzrost;
+            //Console.WriteLine("Wprowadz wartość masy");
+            //masa = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Wprowadz wartość wzrostu");
+            //wzrost = Convert.ToDouble(Console.ReadLine());
+            //bmi = masa / (wzrost * wzrost);
+            
+            ////program poprawnie oblicza wartosc bmi
+            ////za pomoca bramek logicznych, niech wyswietli kounikat wobec wartosci bmi
+            ////pierwsza bramka sprawdza czy bmi jest mniejsze od 18,5
+            //if (bmi < 18.5)
+            //{
+            //    //jesli bmi jest mniejsze, to napisz
+            //    Console.WriteLine("niedowaga");
+            //}
+            ////jesli nie jest mniejsze to sprawdz czy jest mniejsze od 24,99
+            //else if(bmi < 24.99)
+            //{
+            //    //jesli bmi jest mniejsze to napisz
+            //    Console.WriteLine("Norma");
+            //}
+            ////jesli nie jest, to napisz ze bi wskazuje nadwage
+            //else
+            //{
+            //    Console.WriteLine("Nadwaga");
+            //}
+            //Console.Write("{0:F1}", bmi);
+            //Console.ReadLine();
+            //------------------------------------------------------------------------------
+            //3.4
+            //program wczytuje dwie liczby typu double
+            //program wczytuje znak operacji
+            //program wyswietla znak
+            //double liczba1, liczba2, wynik;
+            //string znak;
+            //Console.WriteLine("Wprowadz dwie liczby, pamietaj by nie używać kropki!");
+            //Console.WriteLine("Wprowadz pierwsza liczbe");
+            //liczba1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Wprowadz druga liczbe");
+            //liczba2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Wprowadz znak operacji(dozwolone znaki: +,-,/,*");
+            //znak = Console.ReadLine();
+
+            //if (znak == "+")
+            //{
+            //    wynik = liczba1 + liczba2;
+            //}
+            //else if (znak == "-")
+            //{
+            //    wynik = liczba1 - liczba2;
+            //}
+            //else if (znak == "/")
+            //{
+            //    wynik = liczba1 / liczba2;
+            //}
+            //else
+            //{
+            //    wynik = liczba1 * liczba2;
+            //}
+            //Console.WriteLine("{0} {1} {2} = {3}", liczba1, znak, liczba2, wynik);
+            //Console.ReadKey();
+            //------------------------------------------------------------------------------
+            //3.3
+            //program pobiera trzy liczby od uzytkownika
+            //program ma wyswietlic najwieksza z nich
+            //musi porownac z soba te liczby
+            //w tym celu musi ustalic wpierw czy liczba1 czy liczba 2 jest wieksza, a nastepnie
+            //porownac ta liczbe z liczba 3
+            //int liczba1, liczba2, liczba3;
+            //Console.WriteLine("Wprowadz pierwsza liczbe");
+            //liczba1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadz druga liczbe");
+            //liczba2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadz trzecia liczbe");
+            //liczba3 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Liczba pierwsza: {0}, liczba druga: {1}, liczba trzecia: {2}", liczba1, liczba2, liczba3);
+            //if (liczba1 > liczba2)
+            //{
+            //    if (liczba1 > liczba3)
+            //    {
+            //        Console.WriteLine("Liczba {0} jest najwieksza", liczba1);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Liczba {0} jest najwieksza", liczba3);
+            //    }
+            //}
+            //else if (liczba2 > liczba3)
+            //{
+            //    Console.WriteLine("Liczba {0} jest najwieksza", liczba2);
+            //}
+            //else
+            //    Console.WriteLine("Liczba {0} jest najwieksza", liczba3);
+
+            //Console.ReadKey();
+
+            //------------------------------------------------------------------------------
+            //3.2
+            //Program ktory pobiera od uzytkownika dwie liczby calkowite
+            //Program powinien wyswietlic czy druga liczba jest dzielnikiem pierwszej liczby
+            //Console.WriteLine("Wprowadz pierwsza liczbe:");
+            //int liczba1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Wprowadz druga liczbe:");
+            //int liczba2 = Convert.ToInt32(Console.ReadLine());
+
+            //if ( liczba1 % liczba2 == 0)
+            //{
+            //    Console.WriteLine("{0} jest dzielnikiem {1}", liczba2, liczba1);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("{0} nie jest dzielnikiem {1}", liczba2, liczba1);
+            //}
+            //Console.ReadKey();
+
+            //------------------------------------------------------------------------------
+            //3.1
+            //program ktory sprawdza czy wprowadzony ROK jest przestepny 
+            //dzieli sie bez reszty przez 4
+            //nie dzieli przez 100, oprócz 400
+            //Mozna sprawdzic za pomoca logiki IF i Else
+            //Console.WriteLine("Wprowadź rok:");
+            //int rok = Convert.ToInt32(Console.ReadLine());
+
+            //if(rok % 4 == 0)
+            //{
+            //    if(rok % 400 == 0)
+            //    {
+            //        Console.WriteLine("{0} Jest rokiem przestępnym", rok);
+
+            //    }
+            //    Console.WriteLine("{0} Jest rokiem przestępnym", rok)
+            //}
+            //else
+            //{
+            //    Console.WriteLine("{0} nie jest rokiem przestępnym", rok);
+
+            //}
+            //Console.ReadKey();
+
+            //------------------------------------------------------------------------------
             //3.d
             //Program który wyświetla na ekranie kwadrat
             //zbudowany ze znaku *
@@ -25,14 +283,14 @@ namespace EntryCSharp
             //        Console.Write("*");
             //       // if (k == 4) break;
             //    }
-                
+
             //    Console.WriteLine();
             //   // if (i == 4) break;
             //}
             //Console.ReadKey();
 
 
-            //-----------------------------
+            //------------------------------------------------------------------------------
             //3.c
             //Janek i Karol mają dług w wysokości 80pln, 
             //każdego dnia obaj będą odkładali kwote w wysokości 20% dziennego zarobku na spłate długu
@@ -71,7 +329,7 @@ namespace EntryCSharp
             //}
             //Console.ReadKey();
 
-            //-----------
+            //------------------------------------------------------------------------------
             //3.b
             //wprowadz pierwsza liczbe calkowita x
             //wprowadz druga liczbe calkowita y
@@ -94,7 +352,7 @@ namespace EntryCSharp
             //}
             //Console.ReadKey();
 
-            //------------------
+            //------------------------------------------------------------------------------
             //3.b.b
             //Console.WriteLine("wprowadz liczbe początkową:");
             //int x = Convert.ToInt32(Console.ReadLine());
@@ -116,7 +374,7 @@ namespace EntryCSharp
             //}
             //Console.ReadKey();
 
-            //------------
+            //------------------------------------------------------------------------------
             //3.b.a
             //Console.WriteLine("wprowadz liczbe początkową:");
             //int x = Convert.ToInt32(Console.ReadLine());
@@ -132,6 +390,7 @@ namespace EntryCSharp
             //}
             //Console.ReadKey();
 
+            //------------------------------------------------------------------------------
             //3.a
             ////wprowadz liczbe calkowita
             //Console.WriteLine("Podaj liczbe całkowitą:");
@@ -198,12 +457,13 @@ namespace EntryCSharp
 
             //} while (true);
             //Console.ReadKey();
-            //----------------
+            //------------------------------------------------------------------------------
             //for, while, do..while
             //for loop jest wykorzystywany podczas kiedy wiemy ile razy dokładnie ma się powtórzyć dana pętla,
             //while loop jest wykorzystywane kiedy nie mamy pojecia ile razy, więc może być zapętlone od zera wzwyż
             //do..while loop jest wykorzystywane kiedy wiemy, że pętla ma być wykonana przynajmniej raz
-            //----------------
+
+            //------------------------------------------------------------------------------
             //3.23
             //int wykladnik = Convert.ToInt16(Console.ReadLine());
             //int i = 1, potega = 1;
@@ -256,6 +516,8 @@ namespace EntryCSharp
             //    i++;
             //} while (i <= 5);
             //Console.ReadKey();
+
+            //------------------------------------------------------------------------------
             //3.21
             //Console.WriteLine("czas:{0}", DateTime.Now);
             //Console.WriteLine("Ponownie pokazać czas?: t/n");
@@ -267,6 +529,7 @@ namespace EntryCSharp
             //    Console.ReadLine();
             //}
 
+            //------------------------------------------------------------------------------
             //3.20
             //int i = 1;
             //while (i <= 5)
@@ -279,6 +542,7 @@ namespace EntryCSharp
             //    Console.WriteLine(i);
             //Console.ReadKey();
 
+            //------------------------------------------------------------------------------
             //3.14
             //for (int i = 1; i <= 5; i++)
             //{
@@ -287,6 +551,8 @@ namespace EntryCSharp
             //        Console.WriteLine();
             //}
             //Console.ReadKey();
+
+            //------------------------------------------------------------------------------
             ////3.13
 
             //for (int i = 1; i <= 5; i++)
@@ -294,6 +560,7 @@ namespace EntryCSharp
             //        Console.WriteLine("i={0},j={1}", i, j);
             //Console.ReadKey();
 
+            //------------------------------------------------------------------------------
             //3.11
             //double cena = 0.0;
             //Console.WriteLine("Wybierz S/M/L");
@@ -315,6 +582,8 @@ namespace EntryCSharp
             //}
             //Console.WriteLine(cena);
             //Console.ReadLine();
+
+            //------------------------------------------------------------------------------
             //3.10
             //int liczba = int.Parse(Console.ReadLine());
             //switch (liczba)
@@ -331,6 +600,8 @@ namespace EntryCSharp
 
             //}
             //Console.ReadKey();
+
+            //------------------------------------------------------------------------------
             ////3.9
             //int y, x = 2;
             //bool isTest;
@@ -338,6 +609,8 @@ namespace EntryCSharp
             //y = isTest ? ++x : --x;
             //Console.WriteLine(x);
             //    Console.ReadLine();
+
+            //------------------------------------------------------------------------------
             //3.7
             //double dochod, przychod = 1000, koszt = 1020.50;
             //dochod = przychod - koszt;
